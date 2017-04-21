@@ -10,7 +10,7 @@
 	},
 	"background": {
 		"persistence": false,
-		"scripts": []
+		"scripts": ["bg.js"]
 	},
 	"permissions": [
 		"history"
