@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+  	"name": "Morpheus",
+    "version": "0.1",
+	"browser_action": {
+		"default_action": {
+			"default_icon": "images/morpheus_icon.png"
+		},
+		"default_title": "Morpheus"
+	},
+	"background": {
+		"persistence": false,
+		"scripts": ["bg.js"]
+	},
+	"permissions": [
+		"history"
+	]
+}
